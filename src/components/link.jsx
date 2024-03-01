@@ -1,6 +1,6 @@
 function Links ({href, children, style}) {
     return (
-        <li><a href={href} className={style}>{children}</a></li>
+        <li><a href={href} target="_blank" className={style}>{children}</a></li>
     )
 }
 

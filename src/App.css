@@ -30,6 +30,22 @@ body{
   list-style: none;
 }
 
+.contact {
+  background-color: tomato;
+  padding: 10px;
+    font-weight: 500;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #303030;
+  margin-top: -10px;
+  transform: skew(-15deg);
+}
+
+.contact:hover {
+  background-color: #303030;
+  color: tomato;
+}
+
 .navbar li a {
   font-size: 1.3rem;
   text-decoration: none;
@@ -37,7 +53,7 @@ body{
   font-weight: 500;
 }
 
-.navbar li a:hover {
+.navbar li a:hover{
   border-bottom: 2px solid tomato;
 }
 
@@ -62,9 +78,7 @@ body{
   color: tomato;
 }
 
-.text {
-  color: tomato;
-}
+
 
 /* BANNER */
 
@@ -74,6 +88,7 @@ body{
   max-width: 1200px;
   margin: auto;
   padding-top: 1rem;
+  width: 100%;
 }
 
 .text-banner {
@@ -81,6 +96,10 @@ body{
   line-height: 25px;
   font-weight: 500;
   font-size: 18px;
+}
+
+.text {
+  color: tomato;
 }
 
 .download{
