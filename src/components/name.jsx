@@ -1,7 +1,7 @@
 function Name({children}) {
     return (
         <>
-            <h1>{children}</h1>
+            <h1 className="name">{children}</h1>
         </>
     )
 }

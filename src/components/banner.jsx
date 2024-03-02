@@ -19,13 +19,12 @@ function Banner() {
                     </div>
                     <div className="reseauxSociaux">
                         <Paragraph>Réseaux sociaux</Paragraph>
-                        <div className="arrow">&#8594;</div>
-                        <div className="container">
-                            <Picture src="./src/images/github.png" style="reseauSocial" />
-                            <Picture src="./src/images/linkedin-icon.png" style="reseauSocial" />
-                            <Picture src="./src/images/twitter.png" style="reseauSocial" />
+                        <div className="box">
+                            <div className="container">
+                                <Picture src="./src/images/github.png" style="reseauSocial" />
+                                <Picture src="./src/images/linkedin-icon.png" style="reseauSocial" />
+                            </div>
                         </div>
-                        <div className="arrow">&#8592;</div>
                     </div>
                     <div className="proverb">
                         <Text>« Choisissez un travail que vous aimez et vous n’aurez jamais à travailler un seul jour de votre vie. » - Confucius</Text>

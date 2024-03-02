@@ -1,5 +1,5 @@
 import Banner from "../components/banner";
-import NavBar from "../components/navbar";
+import Header from "../components/header";
 
 function Home() {
     //etat
@@ -9,7 +9,7 @@ function Home() {
     //rendu
     return (
         <>
-            <NavBar />
+            <Header />
             <Banner />
         </>
     )
