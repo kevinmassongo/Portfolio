@@ -177,7 +177,7 @@ body {
 }
 
 .reseauxSociaux .box .container {
-  gap: 20px;
+  display: flex;
 }
 
 .reseauSocial {
@@ -281,5 +281,30 @@ body {
   }
   .menuButton {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  /* Styles spécifiques aux smartphones en mode portrait */
+  .text-banner {
+    max-width: 100%;
+  }
+  .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .reseauxSociaux {
+    max-width: 100%;
+  }
+  .proverb {
+    max-width: 100%;
+  }
+  .sidebar section .sidebar-list .list{
+    font-size: 1.3rem;
+    max-width: 100%;
   }
 }
