@@ -239,6 +239,63 @@ body {
   text-align: center;
 }
 
+/* A PROPOS */
+
+.apropos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7%;
+}
+
+.apropos .container .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.apropos-title {
+  font-size: 3rem;
+}
+
+.apropos-title span{
+  color: tomato;
+}
+
+.apropos .apropos-box{
+  max-width: 50%;
+  background-color: #303030;
+  color: white;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.apropos .apropos-box .apropos-text {
+  font-size: 1.2rem;
+  line-height: 30px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0% 9% 6% 9%;
+} 
+
+.apropos .apropos-box .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+  gap: 2%;
+}
+
+.apropos .apropos-box .container .name{
+  font-size: 1.7rem;
+  color: tomato;
+}
+
+
 
 /* RESPONSIVE */
 
@@ -268,6 +325,26 @@ body {
   .proverb {
     max-width: 72%;
   }
+
+  /* APROPOS */
+
+  .apropos-title {
+    font-size: 2.2rem;
+  }
+  .apropos .apropos-box .container{
+    flex-direction: column;
+    gap: 1%;
+  }
+
+  .apropos .apropos-box .apropos-text {
+    font-size: 1.1rem;
+  } 
+  .apropos .apropos-box .container .name{
+    font-size: 130%;
+  }
+  .apropos-name {
+    font-size: 110%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -281,6 +358,26 @@ body {
   }
   .menuButton {
     display: block;
+  }
+
+  /* APROPOS */
+
+  .apropos-title {
+    font-size: 1.8rem;
+  }
+
+  .apropos .apropos-box .container{
+    margin: 3% 0% 0% 0%;
+  }
+
+  .apropos .apropos-box .apropos-text {
+    font-size: 1rem;
+  } 
+  .apropos .apropos-box .container .name{
+    font-size: 100%;
+  }
+  .apropos-name {
+    font-size: 100%;
   }
 }
 
