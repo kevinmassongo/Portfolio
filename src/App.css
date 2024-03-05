@@ -301,7 +301,7 @@ body {
   padding: 0 7% 7% 7%;
 }
 
-.competence .title-competence {
+.competence .title-box-competence {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -309,7 +309,11 @@ body {
   width: 100%;
 }
 
-.competence .title-competence .text-competence{
+.competence .title-box-competence .title-competence{
+  font-size: 3rem;
+}
+
+.competence .title-box-competence .text-competence{
   margin-top: 20px;
   font-size: 1.1rem;
 }
@@ -343,6 +347,68 @@ body {
   height: 100px;
   width: 100px;
   object-fit: cover;
+}
+
+/* OEUVRE */
+
+.oeuvre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-oeuvre {
+  font-size: 3rem;
+  max-width: 40%;
+  text-align: center;
+  color: #303030;
+}
+
+/* animation button */
+
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: #303030;
+  --animation-color: tomato;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  color: #303030a6;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
 }
 
 /* RESPONSIVE */
@@ -392,6 +458,17 @@ body {
   }
   .apropos-name {
     font-size: 110%;
+  }
+
+  /* COMPETENCES */
+  .competence .title-box-competence .title-competence{
+    font-size: 2.2rem;
+  }
+
+  /* OEUVRE */
+  .title-oeuvre {
+    font-size: 2.2rem;
+    max-width: 100%;
   }
 }
 
@@ -472,7 +549,7 @@ body {
     margin-top: 20px;
   }
 
-  .competence .title-competence .text-competence {
+  .competence .title-box-competence .text-competence {
     max-width: 90%;
     text-align: center;
   }
@@ -483,5 +560,10 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 20px 20px 0px 20px;
+  }
+
+  /* OEUVRES */
+  .button {
+    font-size: 1.2rem;
   }
 }
