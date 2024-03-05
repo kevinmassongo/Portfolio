@@ -295,7 +295,55 @@ body {
   color: tomato;
 }
 
+/* COMPETENCES */
 
+.competence {
+  padding: 0 7% 7% 7%;
+}
+
+.competence .title-competence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.competence .title-competence .text-competence{
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.competence .technic .firstContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.competence .technic .firstContainer .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 20px 0px 20px;
+}
+
+.competence .technic .firstContainer .box .text-box {
+  margin-top: 10px;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 6px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.competence .technic .firstContainer .box img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
 
 /* RESPONSIVE */
 
@@ -362,6 +410,10 @@ body {
 
   /* APROPOS */
 
+  .apropos{
+    flex-direction: column;
+  }
+
   .apropos-title {
     font-size: 1.8rem;
   }
@@ -381,7 +433,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
   /* Styles spécifiques aux smartphones en mode portrait */
   .text-banner {
     max-width: 100%;
@@ -403,5 +455,33 @@ body {
   .sidebar section .sidebar-list .list{
     font-size: 1.3rem;
     max-width: 100%;
+  }
+
+  /* APROPOS */
+  .apropos {
+    margin-top: 20px;
+  }
+  .apropos .apropos-box{
+    margin-top: 20px;
+    max-width: 90%;
+  }
+
+  /* COMPETENCES */
+
+  .competence {
+    margin-top: 20px;
+  }
+
+  .competence .title-competence .text-competence {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .competence .technic .firstContainer .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 0px 20px;
   }
 }

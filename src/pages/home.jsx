@@ -1,5 +1,6 @@
 import Apropos from "../components/apropos";
 import Banner from "../components/banner";
+import Competence from "../components/competence";
 import Header from "../components/header";
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
             <Header />
             <Banner />
             <Apropos />
+            <Competence/>
         </>
     )
 }
