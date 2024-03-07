@@ -534,6 +534,19 @@ textarea::placeholder{
   gap: 10px;
 }
 
+/* FOOTER */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1024px) {
@@ -711,5 +724,14 @@ textarea::placeholder{
   /* OEUVRES */
   .button {
     font-size: 1.2rem;
+  }
+
+  /* CONTACT */
+  form .container input {
+    width: 250px;
+  }
+  textarea {
+    width: 250px;
+    height: 100px;
   }
 }
