@@ -8,6 +8,15 @@
   padding: 0;
 }
 
+.loadingPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #D3D3D3;
@@ -337,15 +346,15 @@ body {
 .competence .technic .firstContainer .box .text-box {
   margin-top: 10px;
   background-color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 6px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 5px;
 }
 
 .competence .technic .firstContainer .box img{
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   object-fit: cover;
 }
 
@@ -356,6 +365,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 5rem 0;
 }
 
 .title-oeuvre {
@@ -363,6 +373,21 @@ body {
   max-width: 40%;
   text-align: center;
   color: #303030;
+}
+
+.logo-oeurvre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.text-oeuvre {
+  font-size: 1.5rem;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 /* animation button */
@@ -383,7 +408,7 @@ body {
   --border-right: 6px;
   --text-stroke-color: #303030;
   --animation-color: tomato;
-  --fs-size: 2em;
+  --fs-size: 1.3em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
@@ -409,6 +434,104 @@ body {
 .button:hover .hover-text {
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+/* CONTACT */
+
+.contact {
+  padding: 6% 7%;
+}
+
+.contact .title-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-size: 3rem;
+}
+
+.contact .text-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+form .container {
+  display: flex;
+  gap: 40px;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+form .container input{
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  background-color: transparent;
+  border-bottom: 2px solid #303030;
+  font-size: 1.1rem;
+}
+
+textarea {
+  width: 650px;
+  height: 150px;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  background-color: transparent;
+  border-bottom: 2px solid #303030;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+textarea::placeholder{
+  font-size: 1.1rem;
+}
+
+.message {
+  margin-top: 50px;
+  position: relative;
+  left: 0%;
+}
+
+.envoyer{
+  width: 56%;
+  margin-top: 20px;
+  height: 35px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.envoyer:active {
+  transform: translate(2px,2px);
+}
+
+.box-message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* RESPONSIVE */
@@ -508,6 +631,29 @@ body {
   .apropos-name {
     font-size: 100%;
   }
+
+  /* Contact */
+  .contact .title-contact {
+    font-size: 1.8rem;
+  }
+
+  .text-contact {
+    font-size: 1rem;
+  }
+
+  form .container{
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 300px;
+    height: 100px;
+  }
+
+  .envoyer {
+    width: 45%;
+  }
+  
 }
 
 @media only screen and (max-width: 425px) {

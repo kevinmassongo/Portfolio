@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Title from "./title";
+import ReseauSociaux from "./reseauxSociaux";
+import Text from "./text";
 
 function Oeuvre() {
     return (
@@ -12,6 +14,10 @@ function Oeuvre() {
                         <span aria-hidden="true" className="hover-text">&nbsp;Cliquez&nbsp;ici&nbsp;</span>
                     </button>
                 </NavLink>
+                <div className="logo-oeurvre">
+                    <Text style="text-oeuvre">Suivez-moi sur</Text>
+                    <ReseauSociaux />
+                </div>
             </div>
         </>
     )

@@ -1,6 +1,7 @@
 import Apropos from "../components/apropos";
 import Banner from "../components/banner";
 import Competence from "../components/competence";
+import ContactMe from "../components/contactMe";
 import Header from "../components/header";
 import Oeuvre from "../components/oeuvre";
 
@@ -17,6 +18,7 @@ function Home() {
             <Apropos />
             <Competence/>
             <Oeuvre/>
+            <ContactMe/>
         </>
     )
 }

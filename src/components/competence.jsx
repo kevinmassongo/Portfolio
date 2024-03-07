@@ -54,9 +54,9 @@ function Competence() {
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\wordpress.svg" alt="Wordpress" />
+                            <img src="src\images\express.svg" alt="Express JS" />
                             <div className="text-box">
-                                <Text>Wordpress</Text>
+                                <Text>Express JS</Text>
                             </div>
                         </div>
                         <div className="box">
@@ -81,6 +81,12 @@ function Competence() {
                             <img src="src\images\figma.svg" alt="Figma" />
                             <div className="text-box">
                                 <Text>Figma</Text>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <img src="src\images\wordpress.svg" alt="Wordpress" />
+                            <div className="text-box">
+                                <Text>Wordpress</Text>
                             </div>
                         </div>
                         <div className="box">
