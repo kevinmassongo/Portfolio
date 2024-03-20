@@ -12,91 +12,91 @@ function Competence() {
                 <div className="technic">
                     <div className="firstContainer">
                         <div className="box">
-                            <img src="src\images\html-5.svg" alt="" />
+                            <img src="src/components/icons/html-5.svg" alt="" />
                             <div className="text-box">
                                 <Text>HTML</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\css-3.svg" alt="Css" />
+                            <img src="src/components/icons/css-3.svg" alt="Css" />
                             <div className="text-box">
                                 <Text>CSS</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\javascript.svg" alt="Javascript" />
+                            <img src="src/components/icons/javascript.svg" alt="Javascript" />
                             <div className="text-box">
                                 <Text>JavaScript</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\react.svg" alt="React js" />
+                            <img src="src/components/icons/react.svg" alt="React js" />
                             <div className="text-box">
                                 <Text>React Js</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\vuejs.svg" alt="Vue js" />
+                            <img src="src/components/icons/vuejs.svg" alt="Vue js" />
                             <div className="text-box">
                                 <Text>Vue Js</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\sass.svg" alt="Sass" />
+                            <img src="src/components/icons/sass.svg" alt="Sass" />
                             <div className="text-box">
                                 <Text>Sass</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\nodejs.svg" alt="Node js" />
+                            <img src="src/components/icons/nodejs.svg" alt="Node js" />
                             <div className="text-box">
                                 <Text>Node Js</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\express.svg" alt="Express JS" />
+                            <img src="src/components/icons/express.svg" alt="Express JS" />
                             <div className="text-box">
                                 <Text>Express JS</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\tailwind.svg" alt="Tailwind css" />
+                            <img src="src/components/icons/tailwind.svg" alt="Tailwind css" />
                             <div className="text-box">
                                 <Text>Tailwind CSS</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\asana.svg" alt="Asana" />
+                            <img src="src/components/icons/asana.svg" alt="Asana" />
                             <div className="text-box">
                                 <Text>Asana</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\vscode.svg" alt="VS Code" />
+                            <img src="src/components/icons/vscode.svg" alt="VS Code" />
                             <div className="text-box">
                                 <Text>VS Code</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\figma.svg" alt="Figma" />
+                            <img src="src/components/icons/figma.svg" alt="Figma" />
                             <div className="text-box">
                                 <Text>Figma</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\wordpress.svg" alt="Wordpress" />
+                            <img src="src/components/icons/wordpress.svg" alt="Wordpress" />
                             <div className="text-box">
                                 <Text>Wordpress</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\git.svg" alt="Git" />
+                            <img src="src/components/icons/git.svg" alt="Git" />
                             <div className="text-box">
                                 <Text>Git</Text>
                             </div>
                         </div>
                         <div className="box">
-                            <img src="src\images\github.svg" alt="GitHub" />
+                            <img src="src/components/icons/github.svg" alt="GitHub" />
                             <div className="text-box">
                                 <Text>GitHub</Text>
                             </div>

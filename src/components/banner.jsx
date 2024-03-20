@@ -27,7 +27,7 @@ function Banner() {
                     </div>
                 </div>
                 <div className="picture-container">
-                    <Picture src="./src/images/picture.jpg" style="picture" />
+                    <Picture src="./src/components/images/picture.jpg" style="picture" />
                 </div>
             </div>
         </>
