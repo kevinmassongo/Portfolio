@@ -547,6 +547,48 @@ textarea::placeholder{
   gap: 10px;
 }
 
+/* OEUVRES */
+
+.title-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 3rem;
+  color: #303030;
+}
+
+.firstProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.paragraph-project {
+  max-width: 450px;
+}
+
+.paragraph-project p{
+  font-size: 2rem;
+}
+
+.paragraph-project li {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.paragraph-project a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1024px) {
