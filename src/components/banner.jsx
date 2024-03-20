@@ -4,6 +4,8 @@ import Text from "./text";
 import Links from "./link";
 import Picture from "./picture";
 import ReseauSociaux from "./reseauxSociaux";
+import picture from "./images/picture.jpg";
+
 
 function Banner() {
     return (
@@ -27,7 +29,7 @@ function Banner() {
                     </div>
                 </div>
                 <div className="picture-container">
-                    <Picture src="./src/components/images/picture.jpg" style="picture" />
+                    <Picture src={picture} style="picture" />
                 </div>
             </div>
         </>
